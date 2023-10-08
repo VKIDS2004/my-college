@@ -1,0 +1,57 @@
+#departments-page-container h1{
+    padding-top: 10px;
+    text-align: center;
+}
+#departments-page-container .dept-container{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    gap: 10px;
+}
+
+#departments-page-container .dept-container .dept-item{
+    max-width: 230px;
+    
+    flex-grow: 1;
+    background-color: rgba(230, 230, 230, 0.507);
+    aspect-ratio: 1/1;
+
+   
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#departments-page-container .dept-container .dept-item img{
+    width: 100%;
+    flex-grow: 1;
+    object-fit: cover;
+    justify-self: end;
+    overflow: hidden;
+}
+
+#departments-page-container .dept-container .dept-item h3{
+    padding: 5px 0;
+}
+@media only screen and (max-width: 600px) {
+    #departments-page-container .dept-container {
+       padding: 20px 20px 20px;
+    }
+    #departments-page-container .dept-container .dept-item{
+    width:  150px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #departments-page-container .dept-container .dept-item{
+        width:  200px;
+        }
+}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 1200px) {} 

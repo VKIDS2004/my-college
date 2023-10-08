@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="header-style.css" />
     <link rel="stylesheet" href="pages/home-style.css" />
+    <link rel="stylesheet" href="pages/about-style.css" />
+    <link rel="stylesheet" href="pages/department-style.css" />
     <link rel="icon" href="assets/fav-logo.png" />
+
     <title>Home</title>
   </head>
   <body id="body">
@@ -20,9 +23,11 @@
         </div>
       </div>
       <ul class="nav-bar">
-        <li><a href="#" class="homeLink" onclick="switchpage('Home')" >Home</a></li>
         <li>
-          <a href="#"   class="departmentLink" onclick="switchpage('Department')" 
+          <a href="#" class="homeLink" onclick="switchpage('Home')">Home</a>
+        </li>
+        <li>
+          <a href="#" class="departmentLink" onclick="switchpage('Department')"
             >Departments
             <img src="assets/down-arrow.png" alt="" class="down-arrow"
           /></a>
@@ -39,31 +44,54 @@
             </ul>
           </div>
         </li>
-        <li><a href="#" class="aboutLink" onclick="switchpage('About')" >About</a></li>
-        <li><a href="#" class="contactLink"  onclick="switchpage('Contact')" >Contact</a></li>
+        <li>
+          <a href="#" class="aboutLink" onclick="switchpage('About')">About</a>
+        </li>
+        <li>
+          <a href="#" class="contactLink" onclick="switchpage('Contact')"
+            >Contact</a
+          >
+        </li>
         <li><button>Login</button></li>
       </ul>
       <img src="assets/menu.png" class="menu-btn" onclick="nav_bar_res()" />
-
-      
     </header>
 
     <div class="respon-nav">
       <h1>Chandru</h1>
       <ul>
-          <li><a href="#" class="homeLink"       onclick="switchpage('Home')" >Home</a></li>
-          <li><a href="#" class="departmentLink" onclick="switchpage('Department')" id="departmentLink" class="d">Departments</a></li>
-          <li><a href="#" class="aboutLink"      onclick="switchpage('About')"  class="d">About</a></li>
-          <li><a href="#" class="contactLink"    onclick="switchpage('Contact')" >Contact</a></li>
-        </ul>
+        <li>
+          <a href="#" class="homeLink" onclick="switchpage('Home')">Home</a>
+        </li>
+        <li>
+          <a
+            href="#"
+            class="departmentLink"
+            onclick="switchpage('Department')"
+            id="departmentLink"
+            class="d"
+            >Departments</a
+          >
+        </li>
+        <li>
+          <a href="#" class="aboutLink" onclick="switchpage('About')" class="d"
+            >About</a
+          >
+        </li>
+        <li>
+          <a href="#" class="contactLink" onclick="switchpage('Contact')"
+            >Contact</a
+          >
+        </li>
+      </ul>
     </div>
 
     <div class="layout_model" id="layout" onclick="closeModel()"></div>
 
     <marquee behavior="" direction=""
-      >2023-24 PG Courses Admission Notification, Quota and Admission Committee
-      details released
-    </marquee>
+      >2023-24 PG Courses Admission Notification, Quota and Admission
+      Committeedetails released</marquee
+    >
 
     <div id="home-page-container">
       <section class="head-img">
@@ -156,11 +184,134 @@
     </div>
 
     <div id="departments-page-container">
-      <h1>department</h1>
+      <h1>Departments</h1>
+      <div class="dept-container">
+        <div class="dept-item">
+          <img src="assets/department/bot.png" alt="">
+          <h3>Botany</h3>
+        </div>
+        <div class="dept-item">
+          <img src="assets/department/business.jpg" alt="">
+          <h3>Business Administration</h3>
+        </div>
+        <div class="dept-item">
+          <img src="assets/department/chem.jpg" alt="">
+          <h3>Chemistry</h3>
+        </div>
+        <div class="dept-item">
+          <img src="assets/department/commerce.png" alt="">
+          <h3>Commerce</h3>
+        </div>
+        <div class="dept-item">
+          <img src="assets/department/computer.webp" alt="">
+          <h3>Computer Science</h3>
+        </div>
+        <div class="dept-item">
+          <img src="assets/department/economics.jpg" alt="">
+          <h3>Economics</h3>
+        </div>
+        <div class="dept-item">
+          <img src="assets/department/english.jpg" alt="">
+          <h3>English</h3>
+        </div>
+        <div class="dept-item">
+          <img src="assets/department/geograhy.png" alt="">
+          <h3>Geography</h3>
+        </div>
+        <div class="dept-item">
+          <img src="assets/department/geolgy.jpg" alt="">
+          <h3>Geology</h3>
+        </div>
+        <div class="dept-item">
+          <img src="assets/department/history.jpg" alt="">
+          <h3>History</h3>
+        </div>
+        <div class="dept-item">
+          <img src="assets/department/maths.webp" alt="">
+          <h3>Maths</h3>
+        </div>
+        <div class="dept-item">
+          <img src="assets/department/nurtion.jpg" alt="">
+          <h3>Nutrition & Dietetics</h3>
+        </div>
+        <div class="dept-item">
+          <img src="assets/department/physics.jpeg" alt="">
+          <h3>Physics</h3>
+        </div>
+        <div class="dept-item">
+          <img src="assets/department/Statistics.jpg" alt="">
+          <h3>Statistics</h3>
+        </div>
+        <div class="dept-item">
+          <img src="assets/department/tamil.webp" alt="">
+          <h3>Tamil</h3>
+        </div>
+        <div class="dept-item">
+          <img src="assets/department/zoo.jpg" alt="">
+          <h3>Zoology</h3>
+        </div>
+      </div>
     </div>
 
     <div id="about-page-container">
-      <h1>about</h1>
+      <h2>About</h2>
+      <h1>About the <span>College</span></h1>
+      <p>
+        The Government Arts College, Thanthonimalai, Karur enjoys the fame of
+        being the only institution in the whole district to show the longest
+        academic history and public service. Established in 1966, it has worked
+        its way ahead of other colleges in the matter of offering higher
+        education of remarkable quality and largely to middle and lower income
+        groups. The repute of this town as a textile industrial centre is
+        further enhanced by the performance record of the Government Arts
+        College Karur as it has never once in the recent years lacked a gold
+        medalist. This college is affiliated to Bharathidasan University,
+        Tiruchirappalli.
+      </p>
+
+      <h1>History and <span>Growth</span></h1>
+      <ul>
+        <li>
+          Government Arts College, Karur was established in the year 1966.
+        </li>
+        <li>
+          The College was commenced with five under graduate courses under the
+          affiliation of the Madras University adopting Tamil as its medium of
+          instruction.
+        </li>
+        <li>
+          The college has been functioning effectively with the adoption of
+          co-education system since 1972.
+        </li>
+        <li>
+          The Institution gets a fair credit for having introduced B.Sc Computer
+          Science course during the academic year 1988-89 for the first time in
+          Tamil Nadu.
+        </li>
+        <li>
+          Computer Literacy Programme launched by the Tamil Nadu Government has
+          been functioning successfully since 2000 for the Non-computer science
+          students.
+        </li>
+        <li>
+          During 2001, the college was accredited with three star status by
+          NAAC. The college was again reaccredited with B+ status by NAAC during
+          2006-07.
+        </li>
+        <li>
+          During the academic year 2006-2007, the Tamil Nadu Government
+          converted all self-financing courses as regular courses and regular
+          faculties were appointed to conduct those classes.
+        </li>
+        <li>
+          He college was conferred Autonomous Status during the academic year
+          2007 - 2008. Autonomous status was further extended upto 2018-19.
+        </li>
+        <li>
+          Adding to its another feather on its cap the college was reaccredited
+          with A Grade status by NAAC during the year 2014-15.
+        </li>
+      </ul>
     </div>
 
     <div id="contact-page-container">
@@ -195,7 +346,6 @@
         <p>© Copyright 2021. All Rights Reserved</p>
       </div>
     </footer>
-
 
     <script src="script.js"></script>
   </body>
