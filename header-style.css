@@ -285,7 +285,7 @@ div.respon-nav ul li:not(:last-child){
 }
 .layout_model.open{
     display: block;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;

@@ -37,8 +37,8 @@ function openModel(){
         }
       });
        
-      const hgt = document.getElementById("body").getBoundingClientRect().height;
-    layoutModel.style.height = `${hgt}px`;
+    //   const hgt = document.getElementById("body").getBoundingClientRect().height;
+    // layoutModel.style.height = `${hgt}px`;
       
 }
 
