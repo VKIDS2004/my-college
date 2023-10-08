@@ -37,6 +37,9 @@ function openModel(){
         }
       });
        
+      const hgt = document.getElementById("body").getBoundingClientRect().height;
+    layoutModel.style.height = `${hgt}px`;
+      
 }
 
 function closeModel(){
@@ -84,7 +87,6 @@ function switchpage(action){
             break;
         }
         
-
     
 }
 
@@ -99,8 +101,8 @@ function nav_bar_res(){
 }
 
 
-// const hgt = document.getElementById("body").getBoundingClientRect().height;
-// // b.height = height;
+
+// b.height = height;
 // document.getElementById("layout").height = hgt;
 
   
