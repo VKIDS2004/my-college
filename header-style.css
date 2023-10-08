@@ -87,6 +87,10 @@ header>ul>li:nth-child(2){
     background-color: rgb(233, 233, 233);
 }
 
+.respon-nav .active-page{
+    background-color: #087df1;
+    color: white;
+}
 
 .drop{
     display: none;

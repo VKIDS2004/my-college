@@ -20,9 +20,9 @@
         </div>
       </div>
       <ul class="nav-bar">
-        <li><a href="#" class="d" onclick="switchpage('Home')" id="homeLink">Home</a></li>
+        <li><a href="#" class="homeLink" onclick="switchpage('Home')" >Home</a></li>
         <li>
-          <a href="#" id="departmentLink" onclick="switchpage('Department')" id="departmentLink" class="d"
+          <a href="#"   class="departmentLink" onclick="switchpage('Department')" 
             >Departments
             <img src="assets/down-arrow.png" alt="" class="down-arrow"
           /></a>
@@ -39,8 +39,8 @@
             </ul>
           </div>
         </li>
-        <li><a href="#" onclick="switchpage('About')" id="aboutLink" class="d">About</a></li>
-        <li><a href="#" onclick="switchpage('Contact')" id="contactLink" class="d">Contact</a></li>
+        <li><a href="#" class="aboutLink" onclick="switchpage('About')" >About</a></li>
+        <li><a href="#" class="contactLink"  onclick="switchpage('Contact')" >Contact</a></li>
         <li><button>Login</button></li>
       </ul>
       <img src="assets/menu.png" class="menu-btn" onclick="nav_bar_res()" />
@@ -51,10 +51,10 @@
     <div class="respon-nav">
       <h1>Chandru</h1>
       <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Departments</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#" class="homeLink"       onclick="switchpage('Home')" >Home</a></li>
+          <li><a href="#" class="departmentLink" onclick="switchpage('Department')" id="departmentLink" class="d">Departments</a></li>
+          <li><a href="#" class="aboutLink"      onclick="switchpage('About')"  class="d">About</a></li>
+          <li><a href="#" class="contactLink"    onclick="switchpage('Contact')" >Contact</a></li>
         </ul>
     </div>
 
