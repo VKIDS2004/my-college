@@ -2,6 +2,14 @@
     padding-top: 10px;
     text-align: center;
 }
+#departments-page-container h2{
+    text-align: center;
+    color: white;
+    background-color: lightslategray;
+    width: fit-content;
+    padding: 5px 10px;
+    margin: 10px auto;
+}
 #departments-page-container .dept-container{
     display: flex;
     flex-wrap: wrap;
@@ -40,7 +48,8 @@
        padding: 20px 20px 20px;
     }
     #departments-page-container .dept-container .dept-item{
-    width:  150px;
+    width:  170px;
+    max-width: 170px;
     }
 }
 
